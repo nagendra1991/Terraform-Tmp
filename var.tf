@@ -1,11 +1,11 @@
 variable "storage" {
-	default = ""
+	default = "storagesize"
 }
 variable "engine" {
-        default = ""
+        default = "Rds-Engine"
 }
 variable "engineversion" {
-        default = ""
+        default = "Version"
 }
 variable "identifier" {
         default = ""
