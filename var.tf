@@ -1,29 +1,29 @@
 variable "storage" {
-	default = "10"
+	default = ""
 }
 variable "engine" {
-        default = "mysql"
+        default = ""
 }
 variable "engineversion" {
-        default = "5.7.22"
+        default = ""
 }
 variable "identifier" {
-        default = "mysqldatatbase"
+        default = ""
 }
 variable "name" {
-        default = "mymysqldb"
+        default = ""
 }
 variable "username" {
-        default = "root"
+        default = ""
 }
 variable "password" {
-        default = "admin1234"
+        default = ""
 }
 variable "subnetgroup" {
-        default = "test-subnet"
+        default = ""
 }
 variable "parametergroup" {
-        default = "default.mysql5.7"
+        default = ""
 }
 variable "azone" {
         default = "us-east-1c"
